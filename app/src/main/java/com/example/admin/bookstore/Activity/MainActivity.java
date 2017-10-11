@@ -1,4 +1,4 @@
-package com.example.admin.bookstore.Activity;
+﻿package com.example.admin.bookstore.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity
 
     TabHost tabHost;
     private ViewPager viewPager;
+	int i=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -45,7 +45,7 @@ public class ChiTietSachActivity extends AppCompatActivity
     HoaDon hoaDon = new HoaDon();
     ArrayList<Sach> sachArrayList = new ArrayList<>();
     Sach s;
-	int i=0;
+	int i=1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

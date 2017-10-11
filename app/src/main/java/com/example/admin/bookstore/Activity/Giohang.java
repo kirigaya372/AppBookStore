@@ -26,6 +26,8 @@ public class Giohang extends AppCompatActivity {
     private AdapterHoaDon adapterHoaDon;
     private DatabaseReference mData;
     HoaDon hoaDon;
+	int i=0;
+	
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,4 +1,4 @@
-package com.example.admin.bookstore.Activity;
+﻿package com.example.admin.bookstore.Activity;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -45,7 +45,7 @@ public class ChiTietSachActivity extends AppCompatActivity
     HoaDon hoaDon = new HoaDon();
     ArrayList<Sach> sachArrayList = new ArrayList<>();
     Sach s;
-
+	int i=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
